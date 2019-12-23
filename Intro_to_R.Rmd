@@ -20,15 +20,18 @@ output: html_notebook
 - The Tidyverse!
     - ggplot2, dplyr, tidyr, readr, purrr, tibble, stringr, forcats
 
+- Be comfortable learning more on your own from resources like this:
+    - ["R for Data Science", Hadley Wickham ](https://r4ds.had.co.nz/)
+
 # Installing Libraries
 
 
 ```{r}
-install.packages(c("tidyverse", "reshape2", "rmarkdown", "magrittr"))
+# install.packages(c("tidyverse", "reshape2", "rmarkdown", "magrittr"))
 ```
 
 ```{r}
-library(tidyverse)  
+library(tidyverse)
 library(reshape2)
 library(magrittr)
 ```
@@ -49,7 +52,7 @@ z <- TRUE
 
 ```{r}
 x + 5
-y + "something"
+# y + "something"
 ```
 
 
