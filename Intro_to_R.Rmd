@@ -134,11 +134,14 @@ summary(a)
 
 
 ```{r}
+# Other variable assignment sytax
 5 -> d
+e = 5
 ```
 
 ```{r}
-e = 5
+d
+e
 ```
 
 
@@ -338,7 +341,7 @@ seatle.donors <- demo.donors %>%
 ```
 
 ```{r}
-filter(demo.donors, CITY"SEATTLE")
+filter(demo.donors, CITY == "SEATTLE")
 ```
 
 
